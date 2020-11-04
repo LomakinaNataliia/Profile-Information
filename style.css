@@ -1,0 +1,30 @@
+.container {
+  margin: 50px;
+  color: #2d4059;
+}
+
+img {
+  margin: 20px;
+}
+
+input {
+  background-color: #decdc3;
+  border: 2px solid #2d4059;
+  border-radius: 5px;
+  color: #2d4059;
+  min-width: 300px;
+  margin-bottom: 20px;
+}
+
+input.action {
+  padding: 10px;
+  min-width: 150px;
+}
+
+input.action:hover {
+  background-color: #799351;
+}
+
+input.reset:hover {
+  background-color: #ea5455;
+}

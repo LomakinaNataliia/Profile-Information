@@ -1,9 +1,13 @@
-.container {
-  color: #2d4059;
-  font-family: "Josefin Sans", sans-serif;
-  line-height: 2;
-  margin: 50px;
-  padding: 10px;
+div.container {
+  background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+  border-radius: 15px;
+  box-shadow: 0px 5px 15px 5px rgba(9, 32, 63, 0.5);
+  color: azure;
+
+  font-family: "Sora", sans-serif;
+  max-width: 800px;
+  margin: 100px auto;
+  padding: 70px;
 }
 
 h1 {
@@ -11,45 +15,62 @@ h1 {
 }
 
 img {
-  margin: 20px;
-}
-
-input {
-  background-color: #decdc3;
-  border: 2px solid #2d4059;
-  border-radius: 5px;
-  color: #2d4059;
-  min-width: 300px;
-  margin-bottom: 25px;
-}
-
-input.action {
-  box-shadow: 0px 4px 5px 4px rgba(45, 64, 89, 0.2);
-  min-width: 150px;
-  padding: 10px;
-  transition: all 200ms ease-in-out;
-}
-
-input.action:hover {
-  background-color: #799351;
-}
-
-input.reset:hover {
-  background-color: #ea5455;
-}
-
-button {
-  background-color: #e5e5e5;
-  border: 8px double #2d4059;
   border-radius: 15px;
-  box-shadow: 0px 4px 5px 4px rgba(45, 64, 89, 0.2);
-  color: #2d4059;
-  padding: 0px 200px;
-  transition: all 200ms ease-in-out;
+  border: 1px solid azure;
+  box-shadow: 0px 5px 15px 5px rgba(9, 32, 63, 0.5);
+  max-width: 300px;
+  max-height: 300px;
 }
 
-button:hover {
-  background-color: #decdc3;
-  color: #ea5455;
-  border: 8px double #ea5455;
+div.profile {
+  justify-content: space-around;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.label {
+  margin: 10px;
+}
+
+.field {
+  border: 2px solid transparent;
+  border-radius: 5px;
+  color: #3d2f59;
+
+  display: block;
+  padding: 10px;
+  margin: 10px auto;
+  width: 225px;
+}
+
+div.change-photo {
+  /* border: 1px solid #fe9a8b; */
+  border: 1px solid azure;
+  border-radius: 15px;
+  box-shadow: 0px 5px 15px 5px rgba(9, 32, 63, 0.5);
+  padding: 10px;
+}
+
+input.change-photo {
+  color: #fe9a8b;
+}
+
+.submit-button {
+  background-image: linear-gradient(
+    to right,
+    #f78ca0 0%,
+    #f9748f 19%,
+    #fd868c 60%,
+    #fe9a8b 100%
+  );
+  color: #09203f;
+  font-size: 15px;
+  /* margin: 30px auto; */
+}
+.submit-button:hover {
+  background-image: none;
+  background-color: transparent;
+  border: 2px solid #fe9a8b;
+  color: #fe9a8b;
+  cursor: pointer;
 }
